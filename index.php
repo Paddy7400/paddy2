@@ -2,7 +2,7 @@
 /**
  * file: index.php
  */
-get_header();
+get_header("header.php");
 ?>
 
 <!-- markup inspired by @url: https://www.w3schools.com/bootstrap/ -->
@@ -26,9 +26,9 @@ get_header();
 
     </div>
     <div class="col-sm-4">
-			<?php get_sidebar(); ?>
+			<?php get_sidebar("sidebar.php"); ?>
     </div>
   </div>
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer("footer.php"); ?>
